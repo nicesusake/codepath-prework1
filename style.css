@@ -32,6 +32,9 @@ button {
   height:200px;
   margin:2px;
 }
+.hidden {
+  dis
+}
 
 /* images and videos max out at full width */
 img,
