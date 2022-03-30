@@ -4,7 +4,6 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: verdana, arial, sans-serif;
 }
 
 *, *:before, *:after {
@@ -13,11 +12,14 @@ html {
 
 /* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
-  background-color: slategrey;
+  margin: 2rem;
+  font-family: helvetica, arial, sans-serif;
+  background-color: maroon;
   color:white;
+}
+
+h1{
+  font-family: verdana, arial, sans-sherif;
 }
 
 /* images and videos max out at full width */
