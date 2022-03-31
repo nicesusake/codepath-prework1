@@ -57,6 +57,14 @@ function playClueSequence(){
     delay += cluePauseTime;
   }
 }
+function guess(btn){
+  console.log("user guessed: " + btn);
+  if(!gamePlaying){
+    return;
+  }
+  
+  // add game logic here
+}
 // Sound Synthesis Functions
 const freqMap = {
   1: 261.6,
