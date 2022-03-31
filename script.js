@@ -62,8 +62,9 @@ function guess(btn){
   if(!gamePlaying){
     return;
   }
-  
-  // add game logic here
+  if(btn == btn){
+    
+  }
 }
 // Sound Synthesis Functions
 const freqMap = {
