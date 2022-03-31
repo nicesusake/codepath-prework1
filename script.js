@@ -1,4 +1,12 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+//Global Variables
+var pattern = [3, 1, 4, 3, 2, 1, 2, 4];
+var progress= 0;
+var gamePlaying = false;
 
-console.log("Hello, world!");
+function startGame(){
+  progress = 0;
+  gamePlaying = true;
+}
+
+document.getElementById("startBtn").classList.add("hidden");
+document.getElementById("stopBtn").classList.remove("hidden");
