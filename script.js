@@ -59,13 +59,32 @@ function playClueSequence(){
 }
 function guess(btn){
   console.log("user guessed: " + btn);
+  
   if(!gamePlaying){
     return;
   }
-  if(btn == btn){
-    
+  
+  if(pattern[guessCounter] == btn){
+    //Guess was correct!
+    if(guessCounter == progress){
+      if(progress == pattern.length - 1){
+        //GAME OVER: WIN!
+        winGame();
+      }else{
+        //Pattern correct. Add next segment
+        progress++;
+        playClueSequence();
+      }
+    }else{
+      //so far so good... check the next guess
+      guessCounter++;
+    }
+  }else{
+    //Guess was incorrect
+    //GAME OVER: LOSE!
+    loseGame();
   }
-}
+}  
 // Sound Synthesis Functions
 const freqMap = {
   1: 261.6,
