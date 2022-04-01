@@ -53,19 +53,25 @@ button {
 
 #button1:active, #button1.lit {
   background: green;
-  onclick
+  background-image: url(https://i.stack.imgur.com/eAepW.png)
 }
 #button2:active, #button2.lit {
   background: blue;
+  background-image:url(https://www.picng.com/upload/spongebob/png_spongebob_77038.png);
+  background-position:center;
 }
+
 #button3:active, #button3.lit {
   background: red;
+  background-image:url(https://www.pngmart.com/files/13/Charmander-PNG-Transparent.png)
 }
 #button4:active, #button4.lit {
   background: yellow;
+  background-image:url(https://www.downloadclipart.net/large/powerpuff-girls-png-transparent-image.png)
 }
 #button5:active, #button5.lit {
   background: purple;
+  background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f78629c-8d75-479c-8387-43b742f81e09/de4vbp0-fac25b4b-417a-42d2-86e8-5f92aec87b0e.png/v1/fill/w_609,h_474,strp/mario_t_pose_by_marioandsonicfan04_de4vbp0-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDc0IiwicGF0aCI6IlwvZlwvMmY3ODYyOWMtOGQ3NS00NzljLTgzODctNDNiNzQyZjgxZTA5XC9kZTR2YnAwLWZhYzI1YjRiLTQxN2EtNDJkMi04NmU4LTVmOTJhZWM4N2IwZS5wbmciLCJ3aWR0aCI6Ijw9NjA5In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZLf1bU1YfbgBvI9EEaS6FpgkH9kSgz84MgOx7ZVm7L0)
 }
 
 /* images and videos max out at full width */
