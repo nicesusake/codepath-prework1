@@ -12,6 +12,10 @@ This is a basic static HTML starter project you can build on however you like. N
 
 ← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
 
+Implemented Features
+
+I added 5 more buttons to the game as well as nostalgic cartoon pictures to make it more fun and original. As well as I've sped up the game just a tiny bit so the game can flow more easily and challenging.
+
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
 ## You built this with Glitch!
