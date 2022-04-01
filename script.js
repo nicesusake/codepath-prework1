@@ -85,6 +85,8 @@ function guess(btn){
     loseGame();
   }
 }  
+
+
 // Sound Synthesis Functions
 const freqMap = {
   1: 261.6,
