@@ -1,5 +1,5 @@
 //global constants
-const clueHoldTime = 1000;
+var clueHoldTime = 1000;
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
