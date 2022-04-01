@@ -24,7 +24,17 @@
       <button id="stopBtn" class = "hidden" onclick ="stopGame()">
         Stop
       </button>
-      
+      <html>
+ <body>
+   <audio src="https://cdn.glitch.global/6a8e0823-2617-42ad-9516-d44fa0db403c/how-did-i-do-there-is-now-a-level-zero.mp3?v=1648846527516" id="myAudio"></audio>
+   <button id="myBtn">Play Audio</button>
+   <script>  document.getElementById("myBtn").addEventListener("click",function(){
+       document.getElementById("myAudio").play();
+     }
+     );
+   </script>
+ </body>
+</html>
     <div id="gameButtonArea">
         <button id="button1" onclick = "guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img src="https://i.stack.imgur.com/eAepW.png" alt ="Riven" width="500" height="50" style= "display:none;"></button>
         <button id="button2" onclick = "guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img src="https://www.picng.com/upload/spongebob/png_spongebob_77038.png" alt="Fizz" width="500" height="42" style="vertical-align:top"> </button>
